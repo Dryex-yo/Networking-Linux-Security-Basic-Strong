@@ -1,80 +1,80 @@
-# 🔐 Networking & Linux Security Lab
+📡 Networking Basic Lab
 
-## 📌 Overview
-This repository documents my hands-on practice in Networking and Linux fundamentals as part of my cybersecurity learning journey.
+Hands-on networking and Linux lab documentation focused on building strong fundamental skills for cybersecurity and system administration.
 
-The focus of Week 2 is Linux system administration, Bash scripting, process management, networking commands, and SSH hardening in a virtual lab environment.
+📑 Table of Contents
 
-All practices are performed in a controlled lab using:
-- Kali Linux (Attacker Machine)
-- Ubuntu Server (Target Machine)
-- Internal Network (VirtualBox)
+Overview
+Week 1 – Networking Fundamental
+Week 2 – Linux & Bash Lab
+Lab Environment
+Tools Used
+Next Roadmap
 
----
+🧠 Overview
+This repository documents my structured learning journey in:
+Networking Fundamentals
+Linux Administration
+Bash Scripting
+SSH Configuration & Hardening
+Basic Security Concepts
+The goal is to build strong foundational knowledge before moving into penetration testing and security analysis.
 
-# 📅 Week 2 – Linux & Bash Lab
+🌐 Week 1 – Networking Fundamental
 
-## 🎯 Topics Covered
+📄 Documentation:
+Week1-Networking-Fundamental.txt
 
-### 1️⃣ Linux File System
-- Linux directory hierarchy
-- /etc, /var, /home structure
-- Exploring `/etc/passwd`
-- File navigation & search (cd, ls, find)
+Topics Covered:
+OSI Model
+TCP/IP Model
+IPv4 Addressing
+Subnetting Basics
+Common Ports & Protocols
+Basic Networking Commands (ping, traceroute, netstat, ss, curl, telnet)
 
-### 2️⃣ Linux Permissions
-- r, w, x fundamentals
-- chmod (symbolic & numeric)
-- chown
-- setuid, setgid, sticky bit
-- Security risks of 777 permissions
+Outcome:
+Understand how data travels across networks
+Configure and verify IP connectivity
+Perform basic network troubleshooting
 
-### 3️⃣ Process Management
-- ps aux
-- top
-- kill & kill -9
-- Background processes (&, jobs, bg)
+🐧 Week 2 – Linux & Bash Lab
 
-### 4️⃣ Networking Commands
-- netstat -tulnp
-- ss -lnt
-- lsof -i
-- curl (HTTP request testing)
-- telnet (port testing)
+📄 Documentation:
+Week2-Linux-Bash-Lab.txt
 
-### 5️⃣ Bash Scripting
-- Variables
-- Loop (for)
-- Conditional (if)
-- Automated ping sweep script
+Topics Covered:
+Linux File System
+File Permission & Ownership
+Process Management
+Networking Commands in Linux
+Bash Scripting Basics
+SSH Configuration & Hardening
+Outcome:
+Manage Linux system efficiently
+Secure SSH configuration
+Automate tasks using Bash scripting
 
-### 6️⃣ SSH Lab & Hardening
-- SSH server setup
-- Key-based authentication
-- Disable password login
-- Security testing
-- Passphrase management
+🧪 Lab Environment
 
----
+VirtualBox Internal Network
+Kali Linux (Attacker Machine)
+Ubuntu Server (Target Machine)
+Network Range: 192.168.100.0/24
 
-# 🧪 Lab Environment
+🛠 Tools Used
 
-| Machine | Role | IP Address |
-|----------|------|------------|
-| Kali Linux | Attacker | 192.168.100.20 |
-| Ubuntu Server | Target | 192.168.100.10 |
-| Network Mode | Internal Network | /24 |
+ip
+ping
+traceroute
+netstat
+ss
+curl
+telnet
+ps
+top
+chmod
+chown
+ssh
 
----
-
-# 🛡 Security Concepts Applied
-
-- Principle of Least Privilege
-- Attack Surface Awareness
-- Key-Based Authentication
-- Service & Port Enumeration
-- Process Control & Signal Handling
-
----
-
-# 📂 Repository Structure
+Author: Dryex
