@@ -1,4 +1,3 @@
-=========================================================
             NETWORKING WEEK 2 – LINUX & BASH LAB
                  Kali Linux Practice Documentation
 =========================================================
@@ -8,7 +7,7 @@ Platform    : Kali Linux (Attacker) & Ubuntu (Target)
 Focus       : Linux Fundamentals, Permission, Process,
               Networking Command, Bash, SSH Hardening
 
-=========================================================
+
 SECTION 1 – LINUX FILE SYSTEM
 =========================================================
 
@@ -64,7 +63,7 @@ Buat folder lab:
 mkdir ~/lab
 cd ~/lab
 
-=========================================================
+
 SECTION 2 – LINUX PERMISSION
 =========================================================
 
@@ -115,7 +114,7 @@ Contoh:
 - Folder butuh "x" agar bisa diakses
 - File tanpa "x" tidak bisa dijalankan
 
-=========================================================
+
 SECTION 3 – PROCESS MANAGEMENT
 =========================================================
 
@@ -146,7 +145,7 @@ Security Insight:
 Gunakan kill biasa terlebih dahulu.
 kill -9 digunakan jika proses tidak merespon.
 
-=========================================================
+
 SECTION 4 – NETWORKING COMMAND
 =========================================================
 
@@ -176,7 +175,7 @@ Security Insight:
 Port LISTEN bukan berarti vulnerable,
 tetapi merupakan attack surface.
 
-=========================================================
+
 SECTION 5 – BASH SCRIPTING
 =========================================================
 
@@ -206,7 +205,7 @@ do
     ping -c 1 $ip
 done
 
-=========================================================
+
 SECTION 6 – SSH LAB (HARDENING)
 =========================================================
 
@@ -256,7 +255,7 @@ SSH key lebih aman karena:
 - Private key tidak dikirim ke server
 - Password login dinonaktifkan
 
-=========================================================
+
 FINAL SUMMARY
 =========================================================
 
@@ -271,6 +270,3 @@ Skills Achieved:
 Level:
 Junior Linux Security Lab Builder
 
-=========================================================
-END OF WEEK 2 DOCUMENTATION
-=========================================================
